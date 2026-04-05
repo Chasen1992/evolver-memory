@@ -145,14 +145,14 @@ def sync_file(headers, repo_full_name, file_path, relative_path, message):
         status, data = api_request(file_url, headers, method="PUT", data=body)
         
         if status in [200, 201]:
-            print(f"✓ Synced: {relative_path}")
+            print(f"[OK] Synced: {relative_path}")
             return True
         else:
-            print(f"✗ Failed to sync {relative_path}: {data}")
+            print(f"[FAIL] Failed to sync {relative_path}: {data}")
             return False
             
     except Exception as e:
-        print(f"✗ Error syncing {relative_path}: {e}")
+        print(f"[ERR] Error syncing {relative_path}: {e}")
         return False
 
 def find_files_to_sync():
@@ -197,7 +197,7 @@ def find_files_to_sync():
 
 def main():
     """主函数"""
-    print("🚀 GitHub Memory Sync Starting...")
+    print("[SYNC] GitHub Memory Sync Starting...")
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("-" * 50)
     
@@ -258,7 +258,7 @@ def main():
         json.dump(logs, f, indent=2, ensure_ascii=False)
     
     print("-" * 50)
-    print(f"\n✅ Sync completed!")
+    print(f"\n[DONE] Sync completed!")
     print(f"Files synced: {synced}")
     print(f"Files failed: {failed}")
     print(f"Repository: https://github.com/{repo_full_name}")
