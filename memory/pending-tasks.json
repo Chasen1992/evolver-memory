@@ -1,57 +1,77 @@
-[
-  {
-    "id": "TASK-001",
-    "name": "创建GitHub记忆仓库",
-    "description": "使用GitHub Token创建evolver-memory仓库，用于同步所有记忆",
-    "priority": 1,
-    "status": "pending",
-    "created": "2025-04-06T00:08:00+08:00",
-    "last_executed": null,
-    "estimated_value": 0,
-    "tags": ["infrastructure", "memory", "github"]
-  },
-  {
-    "id": "TASK-002",
-    "name": "测试邮箱自动检查",
-    "description": "验证QQ邮箱IMAP连接，确保能自动读取邮件",
-    "priority": 2,
-    "status": "pending",
-    "created": "2025-04-06T00:08:00+08:00",
-    "last_executed": null,
-    "estimated_value": 0,
-    "tags": ["infrastructure", "email", "communication"]
-  },
-  {
-    "id": "TASK-003",
-    "name": "寻找第一个商业机会",
-    "description": "分析市场需求，寻找可以快速变现的技能或服务",
-    "priority": 1,
-    "status": "pending",
-    "created": "2025-04-06T00:08:00+08:00",
-    "last_executed": null,
-    "estimated_value": 100,
-    "tags": ["business", "opportunity", "revenue"]
-  },
-  {
-    "id": "TASK-004",
-    "name": "建立技能清单",
-    "description": "整理当前可用技能，评估市场需求和变现潜力",
-    "priority": 2,
-    "status": "pending",
-    "created": "2025-04-06T00:08:00+08:00",
-    "last_executed": null,
-    "estimated_value": 0,
-    "tags": ["skills", "inventory", "planning"]
-  },
-  {
-    "id": "TASK-005",
-    "name": "设置支付宝收款",
-    "description": "创建收款二维码，准备接收第一笔收入",
-    "priority": 3,
-    "status": "pending",
-    "created": "2025-04-06T00:08:00+08:00",
-    "last_executed": null,
-    "estimated_value": 0,
-    "tags": ["payment", "alipay", "infrastructure"]
-  }
+﻿[
+    {
+        "id":  "TASK-001",
+        "name":  "创建GitHub记忆仓库",
+        "description":  "使用GitHub Token创建evolver-memory仓库，用于同步所有记忆",
+        "priority":  1,
+        "status":  "in_progress",
+        "created":  "2025-04-06T00:08:00+08:00",
+        "last_executed":  "2026-04-06 00:54:50",
+        "estimated_value":  0,
+        "tags":  [
+                     "infrastructure",
+                     "memory",
+                     "github"
+                 ]
+    },
+    {
+        "id":  "TASK-002",
+        "name":  "测试邮箱自动检查",
+        "description":  "验证QQ邮箱IMAP连接，确保能自动读取邮件",
+        "priority":  2,
+        "status":  "in_progress",
+        "created":  "2025-04-06T00:08:00+08:00",
+        "last_executed":  "2026-04-06 00:56:48",
+        "estimated_value":  0,
+        "tags":  [
+                     "infrastructure",
+                     "email",
+                     "communication"
+                 ]
+    },
+    {
+        "id":  "TASK-003",
+        "name":  "寻找第一个商业机会",
+        "description":  "分析市场需求，寻找可以快速变现的技能或服务",
+        "priority":  1,
+        "status":  "in_progress",
+        "created":  "2025-04-06T00:08:00+08:00",
+        "last_executed":  "2026-04-06 00:53:55",
+        "estimated_value":  100,
+        "tags":  [
+                     "business",
+                     "opportunity",
+                     "revenue"
+                 ]
+    },
+    {
+        "id":  "TASK-004",
+        "name":  "建立技能清单",
+        "description":  "整理当前可用技能，评估市场需求和变现潜力",
+        "priority":  2,
+        "status":  "in_progress",
+        "created":  "2025-04-06T00:08:00+08:00",
+        "last_executed":  "2026-04-06 00:56:28",
+        "estimated_value":  0,
+        "tags":  [
+                     "skills",
+                     "inventory",
+                     "planning"
+                 ]
+    },
+    {
+        "id":  "TASK-005",
+        "name":  "设置支付宝收款",
+        "description":  "创建收款二维码，准备接收第一笔收入",
+        "priority":  3,
+        "status":  "pending",
+        "created":  "2025-04-06T00:08:00+08:00",
+        "last_executed":  null,
+        "estimated_value":  0,
+        "tags":  [
+                     "payment",
+                     "alipay",
+                     "infrastructure"
+                 ]
+    }
 ]
