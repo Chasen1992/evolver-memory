@@ -37,8 +37,8 @@
     "sync_enabled": true,
     "sync_interval_minutes": 15,
     "backup_count": 10,
-    "github_repo": "evolver-memory",
-    "last_sync": "2025-04-06T00:11:17+08:00"
+    "github_repo": "Chasen1992/evolver-memory",
+    "last_sync": "2026-04-06T00:13:02.722003"
   },
   "business": {
     "active_opportunities": [],
