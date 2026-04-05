@@ -1,0 +1,73 @@
+{
+  "total_assets": 0,
+  "currency": "CNY",
+  "last_updated": "2025-04-06T00:08:00+08:00",
+  "transactions": [],
+  "breakdown": {
+    "cash": 0,
+    "receivables": 0,
+    "investments": 0
+  },
+  "milestones": [
+    {
+      "amount": 1,
+      "description": "第一笔收入",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 100,
+      "description": "破百",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 1000,
+      "description": "破千",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 10000,
+      "description": "破万",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 100000,
+      "description": "破十万",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 1000000,
+      "description": "破百万",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 10000000,
+      "description": "破千万",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 100000000,
+      "description": "破亿",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 1000000000,
+      "description": "破十亿",
+      "achieved": false,
+      "date": null
+    },
+    {
+      "amount": 100000000000,
+      "description": "千亿目标",
+      "achieved": false,
+      "date": null
+    }
+  ]
+}
