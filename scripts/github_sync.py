@@ -36,11 +36,13 @@ def get_github_token():
     if token:
         return token
     
-    # 从配置文件获取
-    config = load_config()
-    token = config.get('credentials', {}).get('github', {}).get('token')
-    if token:
-        return token
+    # 从.env文件获取
+    env_path = WORKSPACE_PATH / ".env"
+    if env_path.exists():
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.startswith('GITHUB_TOKEN='):
+                    return line.strip().split('=', 1)[1]
     
     print("Error: GitHub Token not found!")
     sys.exit(1)
