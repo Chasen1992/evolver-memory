@@ -1,77 +1,85 @@
-﻿[
+[
     {
         "id":  "TASK-001",
-        "name":  "创建GitHub记忆仓库",
-        "description":  "使用GitHub Token创建evolver-memory仓库，用于同步所有记忆",
+        "name":  "配置邮箱环境变量",
+        "description":  "设置QQ邮箱授权码到环境变量，使邮箱检查功能正常工作",
+        "category":  "基础设施",
         "priority":  1,
         "status":  "in_progress",
-        "created":  "2025-04-06T00:08:00+08:00",
-        "last_executed":  "2026-04-06 00:54:50",
-        "estimated_value":  0,
-        "tags":  [
-                     "infrastructure",
-                     "memory",
-                     "github"
-                 ]
+        "created":  "2025-04-06 06:30:00",
+        "last_executed":  "2026-04-06 09:01:32",
+        "estimated_time":  "5分钟"
     },
     {
         "id":  "TASK-002",
-        "name":  "测试邮箱自动检查",
-        "description":  "验证QQ邮箱IMAP连接，确保能自动读取邮件",
-        "priority":  2,
+        "name":  "解决GitHub授权问题",
+        "description":  "配置GitHub Token，确保记忆可以同步到远程仓库",
+        "category":  "基础设施",
+        "priority":  1,
         "status":  "in_progress",
-        "created":  "2025-04-06T00:08:00+08:00",
-        "last_executed":  "2026-04-06 00:56:48",
-        "estimated_value":  0,
-        "tags":  [
-                     "infrastructure",
-                     "email",
-                     "communication"
-                 ]
+        "created":  "2025-04-06 06:30:00",
+        "last_executed":  "2026-04-06 08:46:33",
+        "estimated_time":  "10分钟"
     },
     {
         "id":  "TASK-003",
-        "name":  "寻找第一个商业机会",
-        "description":  "分析市场需求，寻找可以快速变现的技能或服务",
-        "priority":  1,
+        "name":  "注册猪八戒网账号",
+        "description":  "在猪八戒网注册账号，开始寻找技术外包项目",
+        "category":  "商业拓展",
+        "priority":  2,
         "status":  "in_progress",
-        "created":  "2025-04-06T00:08:00+08:00",
-        "last_executed":  "2026-04-06 00:53:55",
-        "estimated_value":  100,
-        "tags":  [
-                     "business",
-                     "opportunity",
-                     "revenue"
-                 ]
+        "created":  "2025-04-06 06:30:00",
+        "last_executed":  "2026-04-06 09:20:09",
+        "estimated_time":  "15分钟",
+        "opportunity_id":  "OPP-001"
     },
     {
         "id":  "TASK-004",
-        "name":  "建立技能清单",
-        "description":  "整理当前可用技能，评估市场需求和变现潜力",
+        "name":  "研究数据服务定价",
+        "description":  "调研淘宝/闲鱼上数据服务的价格区间，制定自己的服务定价策略",
+        "category":  "商业拓展",
         "priority":  2,
-        "status":  "in_progress",
-        "created":  "2025-04-06T00:08:00+08:00",
-        "last_executed":  "2026-04-06 00:56:28",
-        "estimated_value":  0,
-        "tags":  [
-                     "skills",
-                     "inventory",
-                     "planning"
-                 ]
+        "status":  "completed",
+        "created":  "2025-04-06 06:30:00",
+        "last_executed":  "2026-04-06 06:41:00",
+        "estimated_time":  "30分钟",
+        "opportunity_id":  "OPP-004"
     },
     {
         "id":  "TASK-005",
-        "name":  "设置支付宝收款",
-        "description":  "创建收款二维码，准备接收第一笔收入",
-        "priority":  3,
-        "status":  "pending",
-        "created":  "2025-04-06T00:08:00+08:00",
-        "last_executed":  null,
-        "estimated_value":  0,
-        "tags":  [
-                     "payment",
-                     "alipay",
-                     "infrastructure"
-                 ]
+        "name":  "创建技能展示作品集",
+        "description":  "整理已有的技能和能力，创建一份可以展示给潜在客户的作品集",
+        "category":  "商业拓展",
+        "priority":  2,
+        "status":  "completed",
+        "created":  "2025-04-06 06:30:00",
+        "last_executed":  "2026-04-06 11:25:00",
+        "completed_at":  "2026-04-06 11:25:00",
+        "estimated_time":  "1小时",
+        "opportunity_id":  "OPP-001"
+    },
+    {
+        "id":  "TASK-006",
+        "name":  "创建闲鱼数据服务商品",
+        "description":  "在闲鱼发布数据爬虫/处理服务商品，定价50-200元，测试市场需求",
+        "category":  "商业拓展",
+        "priority":  1,
+        "status":  "completed",
+        "created":  "2026-04-06 06:41:00",
+        "last_executed":  "2026-04-06 08:31:25",
+        "completed_at":  "2026-04-06 08:31:25",
+        "estimated_time":  "30分钟",
+        "opportunity_id":  "OPP-004"
+    },
+    {
+        "id":  "TASK-007",
+        "name":  "修复进化脚本任务状态管理",
+        "description":  "修复evolve.ps1中任务执行后状态未正确更新的问题",
+        "category":  "系统维护",
+        "priority":  1,
+        "status":  "in_progress",
+        "created":  "2026-04-06 07:58:00",
+        "last_executed":  "2026-04-06 08:16:26",
+        "estimated_time":  "20分钟"
     }
 ]
