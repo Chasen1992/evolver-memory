@@ -1,65 +1,7 @@
-[
-  {
-    "timestamp": "2026-04-06T00:11:52.351344",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 10,
-    "files_failed": 2,
-    "total_files": 12
-  },
-  {
-    "timestamp": "2026-04-06T00:13:02.720441",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 13,
-    "files_failed": 0,
-    "total_files": 13
-  },
-  {
-    "timestamp": "2026-04-06T00:14:26.178806",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 13,
-    "files_failed": 0,
-    "total_files": 13
-  },
-  {
-    "timestamp": "2026-04-06T00:26:07.821559",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 13,
-    "files_failed": 0,
-    "total_files": 13
-  },
-  {
-    "timestamp": "2026-04-06T00:27:01.271078",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 13,
-    "files_failed": 0,
-    "total_files": 13
-  },
-  {
-    "timestamp": "2026-04-06T00:57:50.816763",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 14,
-    "files_failed": 1,
-    "total_files": 15
-  },
-  {
-    "timestamp": "2026-04-06T00:58:32.101965",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 14,
-    "files_failed": 1,
-    "total_files": 15
-  },
-  {
-    "timestamp": "2026-04-06T00:58:52.257646",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 14,
-    "files_failed": 1,
-    "total_files": 15
-  },
-  {
-    "timestamp": "2026-04-06T00:59:36.400426",
-    "repo": "Chasen1992/evolver-memory",
-    "files_synced": 15,
-    "files_failed": 0,
-    "total_files": 15
-  }
-]
+{
+  "timestamp": "2026-04-06 06:41:45",
+  "synced_files": [],
+  "errors": ["GitHub Token 401 Unauthorized - Token may be expired or invalid"],
+  "repo": "evolver-memory",
+  "status": "failed"
+}
